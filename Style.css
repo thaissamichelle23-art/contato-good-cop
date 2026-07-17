@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffb2d3;
+  font-family:
+    Hobeaux Demo,
+    sans-serif;
+}
+
+.pagina {
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu img {
+  width: 154px;
+  height: 154px;
+  margin-top: 53px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  color: #e6007e;
+  padding-bottom: 53px;
+}
+
+.container-botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.botao {
+  width: 272px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6007e;
+  border-radius: 4px;
+}
+
+.seu-evento {
+  width: 272px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #73c5ef;
+  border: 4px solid #e6007e;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #e6007e;
+  display: flex;
+  justify-content: center;
+  margin-top: 53px;
+}
+
+.footer-img {
+  width: 300px;
+  height: 200 px;
+}
+
+.botao:hover {
+  background-color: #73c5ef;
+}
+
+.seu-evento:hover {
+  background-color: #e6007e;
+  border: 4px solid #73c5ef;
+}
