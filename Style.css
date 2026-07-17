@@ -11,10 +11,6 @@ body {
   font-style: normal;
 }
 
-.pagina {
-  position: relative;
-}
-
 .menu {
   display: flex;
   justify-content: center;
