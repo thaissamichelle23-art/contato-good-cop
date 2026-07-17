@@ -6,9 +6,9 @@
 
 body {
   background-color: #ffb2d3;
-  font-family:
-    Hobeaux Demo,
-    sans-serif;
+  font-family: "hobeaux", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .pagina {
